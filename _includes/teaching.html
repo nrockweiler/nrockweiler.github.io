@@ -1,0 +1,57 @@
+<!-- Teaching -->
+{% if site.locale and site.locale != "" and site.locale != nil %}
+<section class="bg-light page-section" id="{{ site.data.sitetext[site.locale].teaching.section | default: "teaching" }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].teaching.title | default: "Teaching" }}</h2>
+        <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].teaching.text | default: "" }}</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center">
+        <div class="large text-muted">{{ site.data.sitetext[site.locale].teaching.body | markdownify }}</div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center">
+        <div class="large text-muted"><h3>Philosophy</h3><p>Through my years as an educator, I have followed three simple teaching principles to improve the experience and results of students’ learning journeys: 1) provide students with structured and guided time so that they can improve; 2) reflect on my teaching so that I can improve; and 3) inspire students to pursue STEM careers so that we can improve our future.</p><h3>Experience</h3><p>A selection of my teaching experience is below.  Please see my <a href=/assets/pdf/nrockweiler.cv.pdf>CV</a> for additional details and experience.</p>
+             <h4>Teaching</h4>
+               <ul style="text-align: left;">
+                 <li>Designed and taught a scientific communication and graduate school preparation 9-week course for underrepresented minorities through the Opportunities in Genomics Research program at the McDonnell Genome Institute at Washington University School of Medicine in St. Louis.</li>
+                 <li>Designed and taught a three-day bioinformatics minicourse for graduate students and medical researchers at Washington University School of Medicine in St. Louis. The minicourse has been expanded to a full semester for all first year graduate students in the Division of Biology and biomedical Sciences and Washington University School of Medicine.</li>
+                 <li>Teaching assistant for 6 semesters of undergraduate and graduate courses in biology, biostatistics, and computational biology at Washington University in St. Louis</li>
+               </ul>
+             <h4>Training</h4>
+               <ul style="text-align: left;">
+                 <li>Completed the Teaching Citation from the Center for Teaching and Learning at Washington University in St. Louis. Requirements for the program included TAing 3 courses, attending advanced pedagogy workshops, and writing a teaching philosophy statement.</li>
+               <li>Attended the Course Design Institute at the Center for Teaching and Learning at Washington University in St. Louis. Each participant designed a college-level course over the multi-week program.</li>
+             </ul>
+             <h4>Mentoring</h4>
+               <ul style="text-align: left;">
+               <li>Mentored high school and undergraduate students on independent computational projects.</li>
+               <li>Consultant for graduate coursework and scientific computing workshops at Washington University School of Medicine in St. Louis.</li>
+             </ul>
+         </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% else %}
+<section class="bg-light page-section" id="{{ site.data.sitetext.teaching.section | default: "teaching" }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext.teaching.title | default: "Teaching" }}</h2>
+        <h3 class="section-subheading text-muted">{{ site.data.sitetext.teaching.text | default: "" }}</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center">
+        <div class="large text-muted">{{ site.data.sitetext.teaching.body | markdownify }}</div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}
+<!-- End Teaching -->

@@ -16,11 +16,18 @@ en: &DEFAULT_EN
 
   team:
     title: "About"
-    subtext: Hi! I'm a postdoctoral associate in [Steven McCarroll's lab](https://mccarrolllab.org/) at Harvard Medical School and the Broad Institute of MIT and Harvard. I'm interested in understanding the causes and consequences of mosaicism in health and disease. I received a BS in biomedical engineering and mathematics from Washington University in St. Louis. After undergrad, I worked for three years as a bioinformatician at the [Genome Technology Access Center](https://gtac.wustl.edu/), a next generation sequencing core at Washington University School of Medicine.  My field experience at GTAC made me realize that I craved a career in computational genomics. I next went on to earn a PhD in computational and systems biology from Washington University School of Medicine in St. Louis. My PhD was on *The Origins & Functional Effects of Postzygotic Mutations Throughout the Human Lifespan* and was advised by [Don Conrad](https://conradlab.org/) and [Barak Cohen](https://bclab.wustl.edu/). I am passionate about teaching and aspire to become a professor at a primarily undergraduate institution.
+    subtext: |-
+      Hi! I'm a postdoctoral associate in [Steven McCarroll's lab](https://mccarrolllab.org/) at Harvard Medical School and the Broad Institute of MIT and Harvard. I'm interested in understanding the causes and consequences of mosaicism in health and disease.
+
+      I received a BS in biomedical engineering and mathematics from Washington University in St. Louis. After undergrad, I worked for three years as a bioinformatician at the [Genome Technology Access Center](https://gtac.wustl.edu/), a next generation sequencing core at Washington University School of Medicine.  My field experience at GTAC made me realize that I craved a career in computational genomics. I next went on to earn a PhD in computational and systems biology from Washington University School of Medicine in St. Louis. My PhD was on *The Origins & Functional Effects of Postzygotic Mutations Throughout the Human Lifespan* and was advised by [Don Conrad](https://conradlab.org/) and [Barak Cohen](https://bclab.wustl.edu/).
+
+      I am passionate about teaching and aspire to become a professor at a primarily undergraduate institution.
+
+      My CV is available [here](/assets/pdf/nrockweiler.cv.pdf).
     section: team
     people:
-      - name: "Nicole Rockweiler, PhD"
-        role: "Computational biologist"
+      - name: ""
+        #role: "Computational biologist"
         image: assets/img/team/headshot.jpg
 
   portfolio:
@@ -32,6 +39,10 @@ en: &DEFAULT_EN
     title: "Publications"
     body: "[Google Scholar](https://scholar.google.com/citations?user=FcLBemYAAAAJ&hl=en) &#124; [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Rockweiler+NB%5BAuthor%5D&sort=date&size=200) &#124; [ORCID](https://orcid.org/0000-0001-5249-5357)"
     section: about
+
+  teaching:
+    title: "Teaching"
+    section: teaching
 
   contact:
     title: "Contact"

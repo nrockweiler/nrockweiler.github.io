@@ -17,6 +17,8 @@ en: &DEFAULT_EN
       section: portfolio
     - title: "Publications"
       section: about
+    - title: "Teaching"
+      section: teaching
     - title: "CV"
       url: assets/pdf/nrockweiler.cv.pdf
     - title: "Contact"

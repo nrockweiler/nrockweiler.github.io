@@ -1,11 +1,11 @@
 ---
 caption: #what displays in the portfolio grid:
-  title: Origins & Functional Effects of Postzygotic Mutations Throughout the Human Lifespan
+  title: The Origins & Functional Effects of Postzygotic Mutations Throughout the Human Lifespan
   subtitle: PhD thesis
   thumbnail: assets/img/portfolio/mosaicism_cartoon_full.png
   
 #what displays when the item is clicked:
-title: Origins & Functional Effects of Postzygotic Mutations Throughout the Human Lifespan
+title: The Origins & Functional Effects of Postzygotic Mutations Throughout the Human Lifespan
 subtitle: PhD thesis
 image: assets/img/portfolio/mosaicism_cartoon_full.png #main image, can be a link or a file in assets/img/portfolio
 alt: image alt
