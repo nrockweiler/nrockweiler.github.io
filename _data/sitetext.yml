@@ -37,7 +37,7 @@ en: &DEFAULT_EN
 
   about:
     title: "Publications"
-    body: "[Google Scholar](https://scholar.google.com/citations?user=FcLBemYAAAAJ&hl=en) &#124; [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Rockweiler+NB%5BAuthor%5D&sort=date&size=200) &#124; [ORCID](https://orcid.org/0000-0001-5249-5357)"
+    body: "[Google Scholar](https://scholar.google.com/citations?user=FcLBemYAAAAJ&hl=en) &#124; [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Rockweiler+N%5BAuthor%5D&sort=date&size=200) &#124; [ORCID](https://orcid.org/0000-0001-5249-5357)"
     section: about
 
   teaching:
