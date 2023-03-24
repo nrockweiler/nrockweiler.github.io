@@ -18,7 +18,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 
 title      : Nicole Rockweiler, PhD
 email      : nrockweiler@gmail.com #this is also the email contact forms will go to
-description: "Site description"
+description: "An personal academic website for Nicole Rockweiler."
 author     : Nicole Rockweiler
 # logo:     #optional, defaults to site title
   # path: assets\img\clients\creative-market.jpg
