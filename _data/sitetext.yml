@@ -32,6 +32,7 @@ en: &DEFAULT_EN
 
   portfolio:
     title: "Research projects"
+    text: "Click a panel to learn more."
     section: portfolio
     closebutton: "Close"
 
