@@ -55,7 +55,7 @@ en: &DEFAULT_EN
       - url: https://www.linkedin.com/in/nicole-rockweiler/
         icon: "fab fa-linkedin-in"
       - url: https://twitter.com/nonfiniteloop
-        icon: "fab fa-twitter"
+        icon: "fa-brands fa-x-twitter"
       - url: https://github.com/nrockweiler
         icon: "fab fa-github"
 en-US:
