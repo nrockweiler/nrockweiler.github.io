@@ -3,6 +3,7 @@ source "https://rubygems.org"
 gemspec
 
 gem "jekyll-remote-theme"
+gem 'jekyll-sitemap'
 
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
